@@ -8,7 +8,7 @@ print(c)
 name = "Angel B."
 name = "Angel Bulnes"
 
-# concatenar con +
+# concatenation with +
 welcome_Angel = "Hello, " + name + " welcome to Python programming!"
 
 
@@ -16,7 +16,7 @@ print(welcome)
 
 name = 3.14159265358979323
 
-# concatenar con f-strings
+# concatenation with f-strings
 welcome =f"Hello, {name} welcome to Python programming!"
 
 print("Hello" not in welcome) #false
