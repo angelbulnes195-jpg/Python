@@ -12,12 +12,13 @@ name = "Angel Bulnes"
 welcome_Angel = "Hello, " + name + " welcome to Python programming!"
 
 
-print(welcome)
+print(welcome_Angel)
 
 name = 3.14159265358979323
 
 # concatenation with f-strings
 welcome =f"Hello, {name} welcome to Python programming!"
+print(welcome)
 
 print("Hello" not in welcome) #false
 print("Hello" in welcome) #true

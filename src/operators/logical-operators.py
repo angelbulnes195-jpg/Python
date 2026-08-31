@@ -1,22 +1,22 @@
 # and / comparison
 
 Result = True & True #return true
-Result2 = False & False #return false
+Result2 = False & True #return false
 Result3 = True & False #return false
-Result = False & False #return false
+Result4 = False & False #return false
 
 
 # or
 
-Result5 = True | False #return true
-Result6 = True | False #return true
+Result5 = True | True #return true
+Result6 = False | True #return true
 Result7 = True | False #return true
-Result = False | False #return false
+Result8 = False | False #return false
 
 
 # not
 
-Result9 = not 2 == 3 #return false
+Result9 = not True #return false
 Result10 = not False #return true
 
-print(Result)
+print(Result9)
